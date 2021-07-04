@@ -30,7 +30,8 @@ h1 {
 h3 {
     font-family: 'Zen Tokyo Zoo', cursive;
 }
-p{
+
+p {
     margin-bottom: 20px
 }
 
@@ -62,8 +63,53 @@ p{
     background-repeat: no-repeat;
     background-position: right;
     display: flex;
+    margin-bottom: 80px;
 }
 
-.cover1 img{
+.cover1 img {
     padding-left: 50px;
+}
+
+/* Box */
+
+.box {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    display: flex;
+}
+
+.box div {
+    width: 50%;
+    margin: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.box-peck h1 {
+    margin: 5px 10px;
+}
+
+.box h1 {
+    font-size: 30px;
+}
+
+.box h3 {
+    color: orange;
+}
+
+#full {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(255, 127, 113), rgb(255, 81, 50));
+    border-image-slice: 1;
+}
+
+#baby {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
 }
